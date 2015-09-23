@@ -1,13 +1,13 @@
-module Main where
+module Lib
+  ( Results (..)
+  , results
+  ) where
 
-import Control.Monad
 import Data.List
 import Data.Maybe
 import Data.Ord
 import Text.Parsec
 import Text.Parsec.String
-import Text.Printf
-import System.Environment
 import System.Exit
 import qualified Data.Map.Strict as Map
 
@@ -79,11 +79,11 @@ divisions = Map.fromList
 
 ranking :: Parser Ranking
 ranking = do
-  many space
+  _ <- many space
   rank <- many1 digit
-  many space
+  _ <- many space
   team <- many1 alphaNum
-  newline
+  _ <- newline
   return $ Ranking (read rank) team
 
 parser :: FilePath -> IO [Ranking]
@@ -105,15 +105,5 @@ results :: FilePath -> IO [Results]
 results file = do
   rankings <- parser file
   return $ sortBy (comparing rAverage) $ map (uncurry g) $ groupSort $ map f rankings where
-    f (Ranking r t) = (fromJust $ Map.lookup t divisions, r)
+    f r = (fromJust $ Map.lookup (rTeam r) divisions, rRank r)
     g d r = Results d (average r) (stdDev r)
-
-main :: IO ()
-main = do
-  args <- getArgs
-  forM_ args $ \file -> do
-    printf "%-10s %10s %10s\n" ("Division" :: String) ("Mean" :: String) ("Std Dev" :: String)
-    printf "%-10s %10s %10s\n" ("--------" :: String) ("----" :: String) ("-------" :: String)
-    rs <- results file
-    forM_ rs $ \r ->
-      printf "%-10s %10.2f %10.2f\n" (rDivision r) (rAverage r) (rStdDev r)
