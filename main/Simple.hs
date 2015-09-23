@@ -1,7 +1,7 @@
 import Control.Monad
-import Lib
-import Text.Printf
+import Results
 import System.Environment
+import Text.Printf
 
 main :: IO ()
 main = do
