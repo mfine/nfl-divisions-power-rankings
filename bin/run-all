@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-bin/run-csv > README.csv
 bin/run-simple > README.txt
+bin/run-csv > RESULTS.csv
