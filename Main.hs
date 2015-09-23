@@ -36,49 +36,50 @@ nfcNorth = "NFC North"
 
 divisions :: Map.Map String String
 divisions = Map.fromList
-  [ ("Patriots", afcEast)
-  , ("Jets",     afcEast)
-  , ("Dolphins", afcEast)
-  , ("Bills",    afcEast)
+  [ ("PATRIOTS",   afcEast)
+  , ("JETS",       afcEast)
+  , ("DOLPHINS",   afcEast)
+  , ("BILLS",      afcEast)
 
-  , ("Bengals",  afcNorth)
-  , ("Browns",   afcNorth)
-  , ("Steelers", afcNorth)
-  , ("Ravens",   afcNorth)
+  , ("BENGALS",    afcNorth)
+  , ("BROWNS",     afcNorth)
+  , ("STEELERS",   afcNorth)
+  , ("RAVENS",     afcNorth)
 
-  , ("Broncos",  afcWest)
-  , ("Raiders",  afcWest)
-  , ("Chargers", afcWest)
-  , ("Chiefs",   afcWest)
+  , ("BRONCOS",    afcWest)
+  , ("RAIDERS",    afcWest)
+  , ("CHARGERS",   afcWest)
+  , ("CHIEFS",     afcWest)
 
-  , ("Jaguars",    afcSouth)
-  , ("Titans",     afcSouth)
-  , ("Texans",     afcSouth)
-  , ("Colts",      afcSouth)
+  , ("JAGUARS",    afcSouth)
+  , ("TITANS",     afcSouth)
+  , ("TEXANS",     afcSouth)
+  , ("COLTS",      afcSouth)
 
-  , ("Falcons",    nfcSouth)
-  , ("Panthers",   nfcSouth)
-  , ("Buccaneers", nfcSouth)
-  , ("Saints",     nfcSouth)
+  , ("FALCONS",    nfcSouth)
+  , ("PANTHERS",   nfcSouth)
+  , ("BUCCANEERS", nfcSouth)
+  , ("SAINTS",     nfcSouth)
 
-  , ("Packers",    nfcNorth)
-  , ("Vikings",    nfcNorth)
-  , ("Lions",      nfcNorth)
-  , ("Bears",      nfcNorth)
+  , ("PACKERS",    nfcNorth)
+  , ("VIKINGS",    nfcNorth)
+  , ("LIONS",      nfcNorth)
+  , ("BEARS",      nfcNorth)
 
-  , ("Cowboys",    nfcEast)
-  , ("Redskins",   nfcEast)
-  , ("Giants",     nfcEast)
-  , ("Eagles",     nfcEast)
+  , ("COWBOYS",    nfcEast)
+  , ("REDSKINS",   nfcEast)
+  , ("GIANTS",     nfcEast)
+  , ("EAGLES",     nfcEast)
 
-  , ("Cardinals",  nfcWest)
-  , ("Rams",       nfcWest)
-  , ("49ers",      nfcWest)
-  , ("Seahawks",   nfcWest)
+  , ("CARDINALS",  nfcWest)
+  , ("RAMS",       nfcWest)
+  , ("49ERS",      nfcWest)
+  , ("SEAHAWKS",   nfcWest)
   ]
 
 ranking :: Parser Ranking
 ranking = do
+  many space
   rank <- many1 digit
   many space
   team <- many1 alphaNum

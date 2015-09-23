@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+cat "$1" | egrep '^ [A-Z1-9]*' | awk '{ print $1 }' | nl
