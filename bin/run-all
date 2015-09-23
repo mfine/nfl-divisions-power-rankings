@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+bin/run-csv > README.csv
+bin/run-simple > README.txt

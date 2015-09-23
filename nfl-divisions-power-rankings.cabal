@@ -29,3 +29,12 @@ executable nfl-divisions-power-rankings-simple
                      , nfl-divisions-power-rankings
   default-language:    Haskell2010
   default-extensions:  OverloadedStrings
+
+executable nfl-divisions-power-rankings-csv
+  hs-source-dirs:      main
+  main-is:             CSV.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , nfl-divisions-power-rankings
+  default-language:    Haskell2010
+  default-extensions:  OverloadedStrings

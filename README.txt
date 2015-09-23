@@ -1,4 +1,4 @@
-00-preseason.dat
+Week-0
 
 Division         Mean    Std Dev
 --------         ----    -------
@@ -12,7 +12,7 @@ AFC South       20.75      11.05
 NFC South       23.75       6.06
 
 
-01-week1.dat
+Week-1
 
 Division         Mean    Std Dev
 --------         ----    -------
@@ -26,7 +26,7 @@ AFC South       20.75      11.12
 NFC South       23.50       3.91
 
 
-02-week2.dat
+Week-2
 
 Division         Mean    Std Dev
 --------         ----    -------
@@ -40,7 +40,7 @@ NFC South       22.00       6.44
 AFC South       22.25       7.15
 
 
-03-week3.dat
+Week-3
 
 Division         Mean    Std Dev
 --------         ----    -------

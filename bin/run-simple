@@ -3,7 +3,9 @@
 set -e
 
 for d in $(ls "data"); do
-    echo "$d"
+    dd="${d%????}"
+    ddd="${dd#???}"
+    echo "$ddd"
     echo
     nfl-divisions-power-rankings-simple "data/$d"
     echo

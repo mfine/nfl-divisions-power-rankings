@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "week,division,average,std dev"
+for d in $(ls "data"); do
+    dd="${d%????}"
+    ddd="${dd#????????}"
+    nfl-divisions-power-rankings-csv "data/$d" | while read line; do echo "$ddd,$line"; done
+done
+
