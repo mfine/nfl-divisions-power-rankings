@@ -54,3 +54,17 @@ NFC East        22.00       6.04
 AFC South       22.50       5.12
 
 
+Week-4
+
+Division         Mean    Std Dev
+--------         ----    -------
+AFC East        12.00       9.51
+AFC West        12.75       4.97
+NFC West        14.25       9.88
+AFC North       15.75       9.65
+NFC North       16.75      11.76
+NFC East        18.75       2.28
+NFC South       19.50      11.06
+AFC South       22.25       4.82
+
+
