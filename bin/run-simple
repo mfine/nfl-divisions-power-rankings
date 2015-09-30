@@ -5,10 +5,11 @@ set -e
 for d in $(ls -r "data"); do
     dd="${d%????}"
     ddd="${dd#???}"
-    echo "$ddd"
+    echo "### $ddd"
     echo
+    echo "\`\`\`"
     nfl-divisions-power-rankings-simple "data/$d"
-    echo
+    echo "\`\`\`"
     echo
 done
 

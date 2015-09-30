@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo "![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)" > README.txt
-echo "![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)" >> README.txt
-bin/run-simple >> README.txt
+echo "![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)" > README.md
+echo "![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)" >> README.md
+bin/run-simple >> README.md
 bin/run-csv > RESULTS.csv
 bin/run-chart
