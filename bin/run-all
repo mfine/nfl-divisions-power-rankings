@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-bin/run-simple > README.txt
+echo "![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)" > README.txt
+echo "![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)" >> README.txt
+bin/run-simple >> README.txt
 bin/run-csv > RESULTS.csv
+bin/run-chart

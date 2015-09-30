@@ -38,3 +38,15 @@ executable nfl-divisions-power-rankings-csv
                      , nfl-divisions-power-rankings
   default-language:    Haskell2010
   default-extensions:  OverloadedStrings
+
+executable nfl-divisions-power-rankings-chart
+  hs-source-dirs:      main
+  main-is:             Chart.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , Chart
+                     , Chart-cairo
+                     , random
+                     , nfl-divisions-power-rankings
+  default-language:    Haskell2010
+  default-extensions:  OverloadedStrings

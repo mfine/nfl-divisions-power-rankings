@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+nfl-divisions-power-rankings-chart $(find "data" -type f)

@@ -3,3 +3,6 @@ packages:
 - '.'
 extra-deps: []
 resolver: lts-2.21
+extra-deps:
+- Chart-1.5.3
+- Chart-cairo-1.5.1

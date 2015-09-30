@@ -2,7 +2,7 @@
 
 set -e
 
-for d in $(ls "data"); do
+for d in $(ls -r "data"); do
     dd="${d%????}"
     ddd="${dd#???}"
     echo "$ddd"
