@@ -1,5 +1,20 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-5
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+AFC East        12.00       9.19
+NFC West        13.75       9.07
+AFC West        14.00       5.87
+AFC North       15.75       8.70
+NFC North       16.75      11.58
+NFC South       18.00      12.10
+NFC East        18.75       2.59
+AFC South       23.00       5.79
+```
+
 ### Week-4
 
 ```
