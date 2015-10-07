@@ -36,5 +36,7 @@ main = do
             , opaque gray
             , opaque pink
             , opaque black
+            , opaque purple
+            , opaque orange
             ]
 

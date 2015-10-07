@@ -104,6 +104,7 @@ stdDev xs = sqrt $ sum (map f xs) / genericLength xs where
 results :: FilePath -> IO [Results]
 results file = do
   rankings <- parser file
-  return $ sortBy (comparing rAverage) $ map (uncurry g) $ groupSort $ map f rankings where
+  return $ (sortBy (comparing rAverage) $ map (uncurry g) $ ((groupSort $ map e rankings) ++ (groupSort $ map f rankings))) where
+    e r = (take 3 $ fromJust $ Map.lookup (rTeam r) divisions, rRank r)
     f r = (fromJust $ Map.lookup (rTeam r) divisions, rRank r)
     g d r = Results d (average r) (stdDev r)
