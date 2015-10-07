@@ -2,7 +2,7 @@
 
 set -e
 
-echo "week,division,average,std dev"
+echo "week,division,mean,std dev"
 for d in $(ls "data"); do
     dd="${d%????}"
     ddd="${dd#????????}"

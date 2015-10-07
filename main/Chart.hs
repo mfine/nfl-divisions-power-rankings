@@ -15,7 +15,7 @@ main = do
   let ss = sortBy (comparing (rDivision . snd)) (msum rs)
   let ts = groupBy (\a b -> rDivision (snd a) == rDivision (snd b)) ss
   toFile def "RESULTS-average.png" $ do
-    layout_title .= "NFL Power Rankings by Divisions (Average)"
+    layout_title .= "NFL Power Rankings by Divisions (Mean)"
     colors'
     forM_ ts $ \t ->
       plot $ line (rDivision $ snd $ head t) [map (\(w, r) -> (w, rAverage r)) t]
