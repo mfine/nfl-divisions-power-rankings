@@ -1,5 +1,22 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-8
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+AFC East        10.25       6.61
+NFC South       13.75       9.12
+NFC West        15.00       5.52
+NFC ALL         15.38       8.26
+AFC North       15.75      10.62
+NFC East        15.75       4.49
+AFC West        17.00       8.12
+NFC North       17.00      11.55
+AFC ALL         17.62       9.99
+AFC South       27.50       4.56
+```
+
 ### Week-7
 
 ```
