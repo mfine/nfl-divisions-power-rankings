@@ -1,5 +1,22 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-10
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+AFC East        11.50       6.69
+NFC South       12.25       7.12
+NFC ALL         15.25       7.98
+NFC West        15.25       6.76
+AFC North       16.00      10.79
+NFC East        16.75       4.32
+NFC North       16.75      11.23
+AFC West        17.00      10.44
+AFC ALL         17.75      10.18
+AFC South       26.50       5.02
+```
+
 ### Week-9
 
 ```
