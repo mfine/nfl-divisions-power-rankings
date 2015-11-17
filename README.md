@@ -1,5 +1,22 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-11
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+AFC East         9.75       5.17
+NFC South       12.25       7.22
+NFC North       14.50       9.55
+NFC ALL         15.25       8.13
+NFC East        17.00       5.79
+NFC West        17.25       8.41
+AFC ALL         17.75      10.07
+AFC North       17.75      12.87
+AFC West        18.25       8.95
+AFC South       25.25       3.49
+```
+
 ### Week-10
 
 ```
