@@ -17,23 +17,6 @@ NFC East        18.75       5.80
 AFC South       21.25       6.53
 ```
 
-### Week-12
-
-```
-Division         Mean    Std Dev
---------         ----    -------
-AFC East        12.00       7.28
-NFC South       13.50       7.70
-NFC North       15.00       8.51
-NFC ALL         16.00       8.55
-NFC West        16.75      10.57
-AFC ALL         17.00       9.84
-AFC West        17.00       9.82
-AFC North       17.75      12.32
-NFC East        18.75       5.80
-AFC South       21.25       6.53
-```
-
 ### Week-11
 
 ```
