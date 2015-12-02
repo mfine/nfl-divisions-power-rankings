@@ -1,5 +1,22 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-13
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+NFC North       12.00       5.79
+AFC East        12.75       7.12
+AFC West        14.75       8.26
+NFC South       15.75       8.70
+AFC ALL         16.44       9.64
+NFC ALL         16.56       8.81
+NFC West        17.25      11.90
+AFC North       17.50      11.41
+AFC South       20.75       9.28
+NFC East        21.25       3.96
+```
+
 ### Week-12
 
 ```
