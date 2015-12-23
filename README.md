@@ -1,5 +1,22 @@
 ![average](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-average.png)
 ![std dev](https://github.com/mfine/nfl-divisions-power-rankings/blob/master/RESULTS-std-dev.png)
+### Week-16
+
+```
+Division         Mean    Std Dev
+--------         ----    -------
+NFC West        13.00      10.63
+AFC East        13.25       8.01
+AFC West        14.50       8.65
+NFC North       15.25       7.01
+NFC ALL         15.50       8.61
+NFC South       15.50       8.44
+AFC ALL         17.50       9.71
+AFC North       17.75      11.39
+NFC East        18.25       7.01
+AFC South       24.50       5.72
+```
+
 ### Week-15
 
 ```
